@@ -1,0 +1,19 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Cadastro Pizzaria";
+}
+<h2>@ViewData["Title"]</h2>
+    
+
+
+<form method="post">
+
+    <label>Email </label>
+    <input type="text" name="Email" required /></br></br>
+    <label>Senha</label>
+    <input type="password" name="Senha" required /></br></br>
+    <input type="submit" name="cadastrar" value="Entrar" />
+</form>
+
+<h3>@Model.Result</h3>

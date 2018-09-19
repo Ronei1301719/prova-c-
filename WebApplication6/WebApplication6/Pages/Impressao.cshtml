@@ -1,0 +1,19 @@
+﻿@page
+@model ImpressaoModel
+@{
+    ViewData["Title"] = "Relatório de Funcionários";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+
+@Model.Result
+</br></br>
+
+<script language="JavaScript">
+    function voltarTela() {
+        location.href = "Inicial";
+    }
+</script>
+
+<button onclick="voltarTela()">Imprimir</button>

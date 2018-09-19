@@ -1,0 +1,36 @@
+﻿@page
+@model CadastroPizzariaProdutoModel
+@{
+    ViewData["Title"] = "Cadastro de Produtos";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+
+<form method="post" onsubmit="mostrar()">
+
+    <p><b>Digite a quantidade de queijo:</b></p>
+    <input type="text" name="queijo" required />
+    <br /><br />
+
+    <p><b>Digite a quantidade de calabresa:</b></p>
+    <input type="text" name="calabresa" required />
+    <br /><br />
+
+    <p><b>Digite a quantidade de frango:</b></p>
+    <input type="text" name="frango" required />
+    <br /><br />
+
+    <p><b>Digite a quantidade de refri:</b></p>
+    <input type="text" name="refri" required />
+    <br /><br />
+
+    <button type="submit" name="enviar" value="Enviar"> Enviar </button>
+
+</form>
+
+
+<h3>@Model.Result</h3>
+<h3>@Model.Result1</h3>
+<h3>@Model.Result2</h3>
+<h3>@Model.Result3</h3>

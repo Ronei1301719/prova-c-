@@ -1,0 +1,69 @@
+﻿@page
+@model CadastroPizzariaFuncionarioModel
+@{
+    ViewData["Title"] = "Cadastro Pizzaria Funcionario";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+<h1>@Model.Result</h1>
+
+<form method="post">
+    <h1>Realizar Cadastro de Funcionários:</h1></br></br>
+
+    <p><b>Qual o seu nome</b></p>
+    <input type="text" name="nome" />
+    <br /><br />
+
+    <p><b>Digite a sua idade</b></p>
+    <input type="text" name="idade" />
+    <br /><br />
+
+    <p><b>Digite a data do seu nascimento:</b></p>
+    <input type="text" name="nascimento" />
+    <br /><br />
+
+
+    <p><b>Digite seu rua:</b></p>
+    <input type="text" name="rua" />
+    <br /><br />
+
+    <p><b>Digite seu bairro:</b></p>
+    <input type="text" name="bairro" />
+    <br /><br />
+
+
+    <label>Qual a sua formação? </label></br>
+    Ensino fundamental  <input type="checkbox" name="formacao" value="Ensino fundamental completo"></br>
+    Ensino médio  <input type="checkbox" name="formacao" value="Ensino medio completo"></br>
+    Ensino superior  <input type="checkbox" name="formacao" value="Ensino superior completo"></br>
+    </br></br>
+
+
+
+    <div class="col-md-4 col-12">
+        <label>Qual o seu horário?</label>
+        <select class="form-control" name="horario">
+            <option name="horario">8-14 h.</option>
+            <option name="horario">14-20 h.</option>
+            <option name="horario">20-02 h.</option>
+        </select>
+    
+    </div>
+
+    <div class="col-md-4 col-12">
+        <label>Qual é seu função?</label>
+        <select class="form-control" name="setor">
+            <option name="setor">pizzaiolo</option>
+            <option name="setor">forneiro</option>
+            <option name="setor">garçom</option>
+        </select>
+    </div>
+    </br></br>
+    </br></br>
+
+    <input type="submit" class="btn btn-primary" name="enviar" value="Enviar">
+
+
+</form>
+<h3>@Model.Result</h3>

@@ -1,0 +1,11 @@
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.0\WebApplication6.csprojAssemblyReference.cache
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.0\WebApplication6.csproj.CoreCompileInputs.cache
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.0\WebApplication6.AssemblyInfoInputs.cache
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.0\WebApplication6.AssemblyInfo.cs
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.0\WebApplication6.deps.json
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.0\WebApplication6.runtimeconfig.json
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.0\WebApplication6.runtimeconfig.dev.json
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.0\WebApplication6.dll
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\bin\Debug\netcoreapp2.0\WebApplication6.pdb
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.0\WebApplication6.dll
+C:\Users\Ronei\Source\Repos\WebApplication6\WebApplication6\obj\Debug\netcoreapp2.0\WebApplication6.pdb

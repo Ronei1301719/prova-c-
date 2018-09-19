@@ -1,0 +1,84 @@
+﻿@page
+@model CadastroPizzariaClienteModel
+@{
+    ViewData["Title"] = "Cadastro Pizzaria Cliente";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+<h1>@Model.Result</h1>
+
+<form method="post">
+    <h1>Realizar Cadastro Clientes:</h1></br></br>
+
+    <label>Informe seu bairro: </label></br>
+    Cajuru  <input type="checkbox" name="bairro" value="Cajuru"></br>
+    Uberaba  <input type="checkbox" name="bairro" value="Uberaba"></br>
+    Jardim das Américas  <input type="checkbox" name="bairro" value="Jardim das Américas"></br>
+    Capão da Imbuia  <input type="checkbox" name="bairro" value="Capão da Imbuia"></br>
+    Outros  <input type="checkbox" name="bairro" value="Outros"></br>
+    </br></br>
+
+    <label>Informe sua idade: </label></br>
+    18-20  <input type="checkbox" name="idade" value="18-25 anos"></br>
+    26-34  <input type="checkbox" name="idade" value="26-34 anos"></br>
+    35-43  <input type="checkbox" name="idade" value="35-43 anos"></br>
+    44-52  <input type="checkbox" name="idade" value="44-52 anos"></br>
+    Mais de 52  <input type="checkbox" name="idade" value="mais"></br>
+    </br></br>
+
+    <label>Quantas pessoas moram em sua casa?: </label></br>
+    1  <input type="checkbox" name="pessoas" value="1 pessoa"></br>
+    2  <input type="checkbox" name="pessoas" value="2 pessoas"></br>
+    3  <input type="checkbox" name="pessoas" value="3 pessoas"></br>
+    4  <input type="checkbox" name="pessoas" value="4 pessoas"></br>
+    Mais de 4 pessoas  <input type="checkbox" name="pessoas" value="mais de 4 pessoas"></br>
+    </br></br>
+
+    <label>Com que frequência consome pizza? </label></br>
+    1 vez por mês  <input type="checkbox" name="consumo" value="1 pizza"></br>
+    2 vez por mês  <input type="checkbox" name="consumo" value="2 pizzas"></br>
+    3 vez por mês  <input type="checkbox" name="consumo" value="3 pizzas"></br>
+    4 vez por mês  <input type="checkbox" name="consumo" value="4pizzas"></br>
+    Mais de 4 vezes  <input type="checkbox" name="consumo" value="+ de 4 pizzas"></br>
+    </br></br>
+
+    <label>Qual o seu sabor preferido? </label></br>
+    4 queijos  <input type="checkbox" name="sabor" value="4 Queijos"></br>
+    Calabresa  <input type="checkbox" name="sabor" value="calabresa"></br>
+    Frango com Catupiry  <input type="checkbox" name="sabor" value="Frango com Catupiry"></br>
+    Portuguesa  <input type="checkbox" name="sabor" value="Portuguesa"></br>
+    Outros  <input type="checkbox" name="sabor" value="outros"></br>
+    </br></br></br></br>
+
+
+    <label>Qual o ponto da massa? </label></br>
+    Bem assada  <input type="radio" name="ponto" value="bem passada">
+    No ponto  <input type="radio" name="ponto" value="no ponto">
+    </br></br>
+
+    <label>Costuma pedir para entregar ou retira no balcão? </label></br>
+    Entrega  <input type="radio" name="entrega" value="receber a pizza em casa">
+    Balcão  <input type="radio" name="entrega" value="retirar a pizza no balcao">
+    </br></br>
+
+    <label>Costuma pedir alguma bebida? </label></br>
+    Sim  <input type="radio" name="bebida" value="costuma pedir uma bebida para acompanhar">
+    Não  <input type="radio" name="bebida" value="não costuma pedir uma bebida para acompanhar">
+    </br></br>
+
+    <label>Gostaria de receber nossas promoções?</label></br>
+    Sim  <input type="radio" name="promo" value="gostaria de receber nossas promoções">
+    Não  <input type="radio" name="promo" value="não gostaria de receber nossas promoções">
+    </br></br>
+
+    <label>Realizaria pedidos pelo WhatsApp </label></br>
+    Sim  <input type="radio" name="whats" value="realizaria um pedido por whasApp">
+    Não  <input type="radio" name="whats" value="não realizaria um pedido por whasApp">
+    </br></br>
+
+    <input type="submit" class="btn btn-primary" name="enviar" value="Enviar">
+
+ 
+</form>
+<h3>@Model.Result</h3>

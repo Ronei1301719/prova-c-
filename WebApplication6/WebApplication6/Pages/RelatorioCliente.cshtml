@@ -1,0 +1,17 @@
+﻿@page
+@model RelatorioClienteModel
+@{
+    ViewData["Title"] = "Relatório de Clientes";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>@Model.RelatorioCliente</h3>
+
+<script language="JavaScript">
+    function voltarTela() {
+        location.href = "Inicial";
+    }
+</script>
+
+<button onclick="voltarTela()">Voltar</button>
